@@ -5,7 +5,7 @@
 }
 
 .container {
-    background-image: linear-gradient( yellow , purple , orange, red);
+    background-image: linear-gradient( yellow , purple , orange, red , pink);
     height: 100%;
     display: flex;
     justify-content: center;
@@ -15,16 +15,17 @@
 
 
 #demo{
-    height: 30px;
-    width: 50px;
+    height: 50px;
+    width: 70px;
     border: 2px solid black;
     border-radius: 2px;
     cursor:pointer;
+    background-image: linear-gradient(black , white);
 }
 
 #demo:hover {
-    height: 35px;
-    width: 50px;
-    background-image: linear-gradient(black , white);
+    height: 50px;
+    width: 60px;
+    background-image: linear-gradient(white , black);
     border-radius: 5px;
 }
