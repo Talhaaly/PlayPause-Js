@@ -1,0 +1,23 @@
+.container {
+    background-image: linear-gradient( yellow , purple , orange, red);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#demo{
+    height: 30px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#demo:hover {
+    height: 35px;
+    width: 50px;
+    background-image: linear-gradient(black , white);
+    border-radius: 5px;
+}
